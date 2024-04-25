@@ -1,0 +1,37 @@
+.container {
+  text-align: center;
+}
+
+.heading {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 8px;
+  background-color: green;
+  color: white;
+}
+
+td {
+  border: none;
+  padding: 8px;
+}
+
+button {
+  margin: 0 5px;
+  color: white; /* Set button text color to white */
+  background-color: green; /* Set button background color to green */
+  border: none; /* Remove button border */
+  padding: 8px 16px; /* Add padding to button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:disabled {
+  opacity: 0.5; /* Reduce opacity for disabled buttons */
+  cursor: not-allowed; /* Change cursor to not-allowed for disabled buttons */
+}
